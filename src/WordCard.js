@@ -31,7 +31,7 @@ export default function WordCard(props){
                 setState({...state, completed:true})
                 
             }else{
-                console.log('reset, nent attempt')
+                console.log('reset, nent attempt \n hint = field of study')
                 setState({...state, guess:'', attempt: state.attempt + 1})
             }
         }
