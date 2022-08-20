@@ -1,15 +1,18 @@
 .card {
+  position: relative; 
+  left: 200px;
   display: inline-block;
+  position: center;
   text-align: center;
   width: 2em;
   font-size: 2em;
-  box-shadow: 0 4px 8px 0 rgba(131, 4, 74, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 1em;
   user-select: none;
  }
 
  .activeCard {
-  color: rgb(77, 3, 77);
-  background: rgb(194, 77, 77);
+  color: rgb(0, 0, 0);
+  background: rgb(174, 151, 255);
  }
  

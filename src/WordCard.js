@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import _, { attempt } from 'lodash';
 
 import CharacterCard from './CharacterCard';
+import { isContentEditable } from '@testing-library/user-event/dist/utils';
 
 const prepareStateFromWord = (given_word) => {
     let word = given_word.toUpperCase()
@@ -30,6 +31,8 @@ export default function WordCard(props){
                 console.log('yeah!')
                 setState({...state, completed:true})
                 
+
+
                 
             }else{
                 console.log('reset, nent attempt \n hint = field of study')
